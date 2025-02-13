@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.wipro.project.springboot</groupId>
-	<artifactId>SBA</artifactId>
+	<artifactId>Sba</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SBA</name>
+	<name>Sba</name>
 	<description>we will build a service that accepts http get request and gives the response</description>
 	<url/>
 	<licenses>
@@ -35,6 +35,12 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
